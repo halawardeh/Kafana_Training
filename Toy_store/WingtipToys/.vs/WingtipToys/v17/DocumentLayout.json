@@ -1,12 +1,69 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\hhamad\\Desktop\\Kafana_Training\\WingtipToys\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\hhamad\\Desktop\\Kafana_Training\\Toy_store\\WingtipToys\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D9BE9A99-F85D-43FD-8B51-6E88756CE2FA}|WingtipToys\\WingtipToys.csproj|c:\\users\\hhamad\\desktop\\kafana_training\\toy_store\\wingtiptoys\\wingtiptoys\\productdetails.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9BE9A99-F85D-43FD-8B51-6E88756CE2FA}|WingtipToys\\WingtipToys.csproj|solutionrelative:wingtiptoys\\productdetails.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9BE9A99-F85D-43FD-8B51-6E88756CE2FA}|WingtipToys\\WingtipToys.csproj|C:\\Users\\hhamad\\Desktop\\Kafana_Training\\Toy_store\\WingtipToys\\wingtiptoys\\productlist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9BE9A99-F85D-43FD-8B51-6E88756CE2FA}|WingtipToys\\WingtipToys.csproj|solutionrelative:wingtiptoys\\productlist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9BE9A99-F85D-43FD-8B51-6E88756CE2FA}|WingtipToys\\WingtipToys.csproj|C:\\Users\\hhamad\\Desktop\\Kafana_Training\\Toy_store\\WingtipToys\\wingtiptoys\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9BE9A99-F85D-43FD-8B51-6E88756CE2FA}|WingtipToys\\WingtipToys.csproj|solutionrelative:wingtiptoys\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductDetails.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hhamad\\Desktop\\Kafana_Training\\Toy_store\\WingtipToys\\WingtipToys\\ProductDetails.aspx.cs",
+              "RelativeDocumentMoniker": "WingtipToys\\ProductDetails.aspx.cs",
+              "ToolTip": "C:\\Users\\hhamad\\Desktop\\Kafana_Training\\Toy_store\\WingtipToys\\WingtipToys\\ProductDetails.aspx.cs",
+              "RelativeToolTip": "WingtipToys\\ProductDetails.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T06:46:31.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductList.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hhamad\\Desktop\\Kafana_Training\\Toy_store\\WingtipToys\\WingtipToys\\ProductList.aspx.cs",
+              "RelativeDocumentMoniker": "WingtipToys\\ProductList.aspx.cs",
+              "ToolTip": "C:\\Users\\hhamad\\Desktop\\Kafana_Training\\Toy_store\\WingtipToys\\WingtipToys\\ProductList.aspx.cs",
+              "RelativeToolTip": "WingtipToys\\ProductList.aspx.cs",
+              "ViewState": "AgIAAAwAAAAA0CMl5FQnwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T06:37:01.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Site.Master.cs",
+              "DocumentMoniker": "C:\\Users\\hhamad\\Desktop\\Kafana_Training\\Toy_store\\WingtipToys\\WingtipToys\\Site.Master.cs",
+              "RelativeDocumentMoniker": "WingtipToys\\Site.Master.cs",
+              "ToolTip": "C:\\Users\\hhamad\\Desktop\\Kafana_Training\\Toy_store\\WingtipToys\\WingtipToys\\Site.Master.cs",
+              "RelativeToolTip": "WingtipToys\\Site.Master.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAqwBkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T06:34:20.958Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

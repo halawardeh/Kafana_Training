@@ -16,19 +16,14 @@ namespace WingtipToys
 
         }
 
-        public IQueryable<Product> GetProduct([QueryString("productID")] int? productId)
+        public IQueryable<Product> GetProduct([QueryString("productID")] int? ProductID)
         {
-            var _db = new WingtipToys.Models.ProductContext();
-            IQueryable<Product> query = _db.Products;
-            if (productId.HasValue && productId > 0)
-            {
-                query = query.Where(p => p.ProductID == productId);
-            }
-            else
-            {
-                query = null;
-            }
-            return query;
+            var _DB = new WingtipToys.Models.ProductContext();
+            IQueryable<Product> allproducts = _DB.Products;
+            var product = _DB.Products.Where(p => p.ProductID == ProductID);
+            if (product != null)
+                return product;
+            return allproducts;
         }
     }
 }

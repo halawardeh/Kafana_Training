@@ -6,6 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using WingtipToys.Models;
 using System.Web.ModelBinding;
+using Microsoft.Owin;
 
 namespace WingtipToys
 {
@@ -16,15 +17,17 @@ namespace WingtipToys
 
         }
 
-        public IQueryable<Product> GetProducts([QueryString("id")] int? categoryId)
+        public IQueryable<Product> GetProducts([QueryString("id")] int? categoryID)
         {
-            var _db = new WingtipToys.Models.ProductContext();
-            IQueryable<Product> query = _db.Products;
-            if (categoryId.HasValue && categoryId > 0)
-            {
-                query = query.Where(p => p.CategoryID == categoryId);
-            }
-            return query;
+            var _DB = new WingtipToys.Models.ProductContext();
+
+            IQueryable<Product> Products= _DB.Products.Where(p=>p.CategoryID==categoryID);
+
+            if (Products.Count()>0)
+                return Products;
+
+            return _DB.Products;
         }
+        
     }
 }
